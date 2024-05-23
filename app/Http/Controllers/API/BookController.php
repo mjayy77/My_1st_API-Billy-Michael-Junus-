@@ -62,7 +62,7 @@ class BookController extends Controller
      *                  "publisher": "Erlangga",
      *                  "publication_year": "2016",
      *                  "cover": "https://tse4.mm.bing.net/th?id=OIP.8M-LvH9_prdEitEAYOEX0gHaEy&pid=Api&P=0&h=180",
-     *                  "description": ""Ketika Cinta Bertasbih" is a popular Indonesian novel written by Habiburrahman El Shirazy, published in 2007. It tells the story of Khairul Azzam, a dedicated and principled young man studying at Al-Azhar University in Cairo. After his father's death, Azzam takes on the responsibility of supporting his family back in Indonesia while continuing his studies. He works as a tempeh and meatball maker to earn money.
+     *                  "description": ""Ketika Cinta Bertasbih" is a popular Indonesian novel written by Habiburrahman El Shirazy, published in 2007. It tells the story of Khairul Azzam, a dedicated and principled young man studying at Al-Azhar University in Cairo. After his father's death, Azzam takes on the responsibility of supporting his family back in Indonesia while continuing his studies. He works as a tempeh and meatball maker to earn money.,
      *              }
      *          )
      *      )
@@ -168,13 +168,12 @@ class BookController extends Controller
      *          @OA\JsonContent(
      *              ref="#/components/schemas/Book",
      *              example={
-     *                  "title": "Eating Clean",
-     *                  "author": "Inge Tumiwa-Bachrens",
-     *                  "publisher": "Kawan Pustaka",
+     *                  "title": "Ketika Cinta Bertasbih",
+     *                  "author": "Bambang Sutejo",
+     *                  "publisher": "Erlangga",
      *                  "publication_year": "2016",
-     *                  "cover": "https://images-na.ssl-images-amazon.com/images/5/compressed.photo.goodreads.com/books/14821780551/33511107.jpg",
-     *                  "description": "Menjadi sehat adalah impian semua orang. Makanan yang selama ini kita pikir sehat ternyata belum tentu sehat bagi tubuh kita.",
-     *                  "price": 85000
+     *                  "cover": "https://tse4.mm.bing.net/th?id=OIP.8M-LvH9_prdEitEAYOEX0gHaEy&pid=Api&P=0&h=180",
+     *                  "description": ""Ketika Cinta Bertasbih" is a popular Indonesian novel written by Habiburrahman El Shirazy, published in 2007. It tells the story of Khairul Azzam, a dedicated and principled young man studying at Al-Azhar University in Cairo. After his father's death, Azzam takes on the responsibility of supporting his family back in Indonesia while continuing his studies. He works as a tempeh and meatball maker to earn money.,
      *              }
      *          )
      *      )
